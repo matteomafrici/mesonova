@@ -1,0 +1,28 @@
+# The raw drive is an input: 82 MB of third-party PDFs, never tracked.
+# Its content is versioned as converted Markdown under sources/.
+onedrive/
+
+# My scratch bench: drafts, calculations, assessment. Promoted to
+# deliverables/ only when it is ready.
+local/
+
+# Obsidian vault state (created when this folder is opened as a vault)
+.obsidian/
+.trash/
+
+# Editor / OS noise
+.vscode/
+*.tmp
+*.bak
+Thumbs.db
+desktop.ini
+~$*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Excel lock files
+~$*.xlsx
